@@ -1,0 +1,26 @@
+.App {
+  text-align: center;
+}
+
+.List{
+
+  margin:auto;
+  max-width: 40em;
+}
+.List ul{
+max-height: 60em;
+overflow-y: scroll;
+}
+.List li{
+  border: 0.2em solid black;
+  
+  height: 4em;
+}
+.List li:hover{
+  
+  background-color: yellow;
+  cursor: pointer;
+}
+.NameColor{
+  color: blue;
+}
